@@ -1,0 +1,16 @@
+{
+  "name": "woocommercelocations",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "ts:start": "tsc -w",
+    "sass:start": "sass resources/styles:public/build/styles --style compressed --watch",
+    "build": "tsc && sass resources/styles:public/build/styles --style compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.3",
+    "typescript": "^5.2.2"
+  }
+}
